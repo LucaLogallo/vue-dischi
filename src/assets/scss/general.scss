@@ -1,0 +1,29 @@
+/* imposto bootstrap */
+@import '~bootstrap/scss/bootstrap';
+
+/* imposto il font */
+@import '~@fontsource/denk-one/index.css';
+
+@import './vars.scss';
+
+
+/* imposto il font al body */
+body{
+  font-family: $main-fonts;
+}
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+#app{
+  height: 100%;
+  background-color: #1e2d3b;
+}
+
+.row{
+  margin: auto;
+  padding-top: 20px;
+}
